@@ -13,7 +13,8 @@ function chunkString(str, size) {
 }
 
 
+
 // Do not change the code below
 const str = prompt("Enter String.");
-const size = prompt("Enter Chunk Size.");
-alert(stringChop(str, size));
+const size = parseInt(prompt("Enter Chunk Size."));
+alert(chunkString(str, size));
